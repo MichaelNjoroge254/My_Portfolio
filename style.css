@@ -1,0 +1,51 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+/* navbar styling */
+ .navbar {
+     position: fixed;
+     width: 100%;
+     padding: 15px 0 ;
+     background-color: rgb(221, 99, 221);
+     font-family: cursive;
+ }
+
+ .navbar .max {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .max {
+
+     max-width: 1300px;
+     padding: 0 80px;
+     margin: auto;
+ }
+
+ .logo a {
+     color: white;
+     font-size: 3em;
+     font-weight: 600;
+ }
+
+ .menu li a {
+     color: white;
+     font-size: 18px;
+     font-weight: 500;
+     margin-left: 25px;
+ }
+
+ .menu li {
+     list-style: none;
+     display: inline-block;
+ }
+ /* Home section styling */
+ .home{
+     display: flex;
+     background-image: url();
+ }
