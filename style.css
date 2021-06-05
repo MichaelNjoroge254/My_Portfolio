@@ -3,14 +3,17 @@
      padding: 0;
      box-sizing: border-box;
      text-decoration: none;
+
  }
-/* navbar styling */
+
+ /* navbar styling */
  .navbar {
      position: fixed;
      width: 100%;
-     padding: 15px 0 ;
+     padding: 10px 0;
      background-color: rgb(221, 99, 221);
      font-family: cursive;
+
  }
 
  .navbar .max {
@@ -30,7 +33,7 @@
  .logo a {
      color: white;
      font-size: 3em;
-     font-weight: 600;
+     font-weight: 60;
  }
 
  .menu li a {
@@ -44,8 +47,49 @@
      list-style: none;
      display: inline-block;
  }
+ .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+ }
+ .menu li a:hover{
+    color: crimson;
+ }   
  /* Home section styling */
- .home{
+ .home {
      display: flex;
-     background-image: url();
+     background: url("images/mike1.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     color: white;
+     min-height: 600px;
+     font-size: 2em;
+     font-family: cursive;
+ }
+
+ .home .max {
+     margin: auto 0 auto 40px;
+ }
+
+ .one {
+     color: rgb(41, 41, 41);
+ }
+
+ .first-text {
+     font-size: 1.2em;
+ }
+
+ .sec-text {
+     font-size: 1.7em;
+     font-weight: 600;
+     margin-left: -3px;
+ }
+
+ .third-text {
+     font-size: 1.3em;
+     margin: 5px 0;
  }
