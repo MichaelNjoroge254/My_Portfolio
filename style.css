@@ -41,33 +41,37 @@
      font-size: 18px;
      font-weight: 500;
      margin-left: 25px;
-     
-     
+
+
  }
 
  .menu li {
      list-style: none;
      display: inline-block;
  }
- .menu li a{
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
- }
- .menu li a:hover{
-    color: crimson;
- }   
 
- .navbar.sticky .menu li a:hover{
+ .menu li a {
+     color: white;
+     font-size: 18px;
+     font-weight: 500;
+     margin-left: 25px;
+     transition: color 0.3s ease;
+ }
+
+ .menu li a:hover {
+     color: crimson;
+ }
+
+ .navbar.sticky .menu li a:hover {
      color: white;
  }
+
  /* menu btn styling */
- .menu-btn{
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
+ .menu-btn {
+     color: white;
+     font-size: 23px;
+     cursor: pointer;
+     display: none;
  }
 
  /* Home section styling */
@@ -76,7 +80,7 @@
      background: url("images/mike1.jpg");
      background-repeat: no-repeat;
      background-position: center;
-     background-size: cover; 
+     background-size: cover;
      height: 100vh;
      color: white;
      min-height: 600px;
@@ -84,7 +88,7 @@
      font-family: cursive;
  }
 
- .home .max {
+ .home .max-width {
      margin: auto 0 auto 40px;
  }
 
@@ -106,3 +110,38 @@
      font-size: 1.3em;
      margin: 5px 0;
  }
+
+ /* responsive media query start */
+ @media (max-width: 991px) {
+     .max-width {
+         padding: 0 50px;
+     }
+     .menu-btn{
+         display: block;
+         z-index: 999;
+     }
+     .menu-btn i.active::before{
+         content: "\food";
+
+     }
+
+     .navbar .menu {
+         position: fixed;
+         height: 100vh;
+         width: 100%;
+         left: -100%;
+         top: 0;
+         background: black;
+         text-align: center;
+         padding-top: 80px;
+         transition: all 0.3s ease;
+
+     }
+     .navbar .menu li{
+         display: block;
+     }
+     .navbar .menu li a{
+         display: inline-block;
+         margin: 20px 0;
+
+     }
