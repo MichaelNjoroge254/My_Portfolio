@@ -16,16 +16,16 @@
 
  }
 
- .navbar .max {
+ .navbar .max-width {
      display: flex;
      align-items: center;
      justify-content: space-between;
 
  }
 
- .max {
+ .max-width {
 
-     max-width: 1300px;
+     max-width: 1400px;
      padding: 0 80px;
      margin: auto;
  }
@@ -41,6 +41,8 @@
      font-size: 18px;
      font-weight: 500;
      margin-left: 25px;
+     
+     
  }
 
  .menu li {
@@ -57,6 +59,17 @@
  .menu li a:hover{
     color: crimson;
  }   
+
+ .navbar.sticky .menu li a:hover{
+     color: white;
+ }
+ /* menu btn styling */
+ .menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+ }
+
  /* Home section styling */
  .home {
      display: flex;
