@@ -63,7 +63,7 @@
      background: url("images/mike1.jpg");
      background-repeat: no-repeat;
      background-position: center;
-     background-size: cover;
+     background-size: cover; 
      height: 100vh;
      color: white;
      min-height: 600px;
