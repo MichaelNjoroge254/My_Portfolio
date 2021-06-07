@@ -151,8 +151,7 @@ section .title::before {
     left: 50%;
     width: 180px;
     height: 3px;
-    color: rgb(221, 99, 221);
-    background-color: black;
+    background-color: rgb(221, 99, 221); 
     transform: translateX(-50%);
 
 
@@ -177,6 +176,7 @@ section .title::after {
  }
 
 .about .title::after {
+    color:rgb(221, 99, 221);
      content: "who am I";
  }
 
@@ -251,6 +251,18 @@ section .title::after {
     color:rgb(221, 99, 221);
     content: "what i provide";
 } 
+.services .serv-content .card{
+    width: calc(33% - 20px); 
+}
+.services .serv-content .text{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(221, 99, 221);
+}
+.project li a{
+    font-size: 20px;
+    text-decoration: none;
+}
 
 
  /* responsive media query start */
