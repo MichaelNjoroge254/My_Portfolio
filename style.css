@@ -59,7 +59,7 @@
  }
 
  .menu li a:hover {
-     color: crimson;
+     color: rgb(41, 41, 41);
  }
 
  .navbar.sticky .menu li a:hover {
@@ -67,17 +67,19 @@
  }
 
  /* menu btn styling */
- .menu-btn {
-     color: white;
-     font-size: 23px;
-     cursor: pointer;
-     display: none;
- }
+  
+ /* .bar1 .bar2 .bar3{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+} */
+ 
 
  /* Home section styling */
  .home {
      display: flex;
-     background: url("images/mike1.jpg");
+     background: url("images/mike.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -110,6 +112,63 @@
      font-size: 1.3em;
      margin: 5px 0;
  }
+ .home .home-content a{
+     display: inline-block;
+     background: rgb(221, 99, 221);
+     color:white;
+     font-size: 25px;
+     padding: 12px 36px;
+     margin-top: 20px;
+     border-radius: 6px;
+     border: 2px solid rgb(221, 99, 221); 
+     transition: all 0.3 ease;     
+ }
+ .home .home-content a:hover{
+     color: rgb(41, 41, 41);
+     background: none;
+ }
+
+ /* about section styling */
+ section{
+     padding: 100px 0;
+ }
+ .about{
+     font-family: 'Poppins', sans-serif;
+ }
+ .about .title{
+     text-align: center;
+     font-size: 40px;
+     font-weight: 500;
+     margin-bottom: 60px;
+     padding-bottom: 20px;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .about .title::before{
+     content: "";
+     position: absolute;
+     bottom: 0px;
+     left: 50%;
+     width: 180px;
+     height: 3px;
+     background-color: black;
+
+ }
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
 
  /* responsive media query start */
  @media (max-width: 1104px) {
@@ -165,16 +224,16 @@
      .home .home-content .third-text{
         font-size: 35px;
     }
+    .home .home-content a{
+        font-size: 20px;
+       }
 
-     @media (max-width: 690px) {
-         .max-width{
-             padding: 0 23px;
-         }
+     @media (max-width: 500px) {
         .home .home-content .sec-text{
-            font-size: 60px;
+            font-size: 50px;
         }
    
         .home .home-content .third-text{
-           font-size: 32px;
+           font-size: 27px;
        }
    }
