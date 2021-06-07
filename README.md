@@ -15,7 +15,7 @@ A portfolio describing me and my coding experience,in it includes my projects(IP
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies used
-HTML and CSS
+HTML, CSS and JAVASCRIPT
 ## Support and contact details
 Get in touch through email or phone. Email: michael.m.njoroge254@gmail.com  Phone: +254743546796
 ### License
