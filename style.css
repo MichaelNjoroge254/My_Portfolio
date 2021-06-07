@@ -80,7 +80,7 @@
  /* Home section styling */
  .home {
      display: flex;
-     background: url("images/mike.jpg");
+      background: url("images/mike.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -151,6 +151,7 @@ section .title::before {
     left: 50%;
     width: 180px;
     height: 3px;
+    color: rgb(221, 99, 221);
     background-color: black;
     transform: translateX(-50%);
 
@@ -163,7 +164,7 @@ section .title::after {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: rgb(41, 41, 41);
+    color: rgb(221, 99, 221);
     padding: 5px;
     background-color: white;
     transform: translateX(-50%);
@@ -179,7 +180,8 @@ section .title::after {
      content: "who am I";
  }
 
- .about .about-content {
+ .about .about-content,
+ .services .serv-content  {
      display: flex;
      flex-wrap: wrap;
      align-items: center;
@@ -236,9 +238,19 @@ section .title::after {
  }
 
 /* services section styling */
-.services .title::after{
-    content: "what i provide";
+.services{
+    color:#fff;
+    background: #111;
 }
+.services .title::before{
+    background:rgb(221, 99, 221);
+   
+} 
+.services .title::after{
+    background: #111;
+    color:rgb(221, 99, 221);
+    content: "what i provide";
+} 
 
 
  /* responsive media query start */
