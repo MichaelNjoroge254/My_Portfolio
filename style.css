@@ -4,6 +4,10 @@
      box-sizing: border-box;
      text-decoration: none;
 
+
+ }
+ body{
+     text-decoration: none;
  }
 
  /* navbar styling */
@@ -12,7 +16,7 @@
      width: 100%;
      z-index: 999;
      padding: 10px 0;
-     background-color: rgb(221, 99, 221);
+     background-color: rgb(198, 235, 231);
      font-family: cursive;
 
  }
@@ -52,7 +56,7 @@
  }
 
  .menu li a {
-     color: white;
+     color:rgb(255, 122, 140);
      font-size: 18px;
      font-weight: 500;
      margin-left: 25px;
@@ -60,11 +64,12 @@
  }
 
  .menu li a:hover {
-     color: rgb(41, 41, 41);
+     color: #fff;
+     font-weight: 600;
  }
 
  .navbar.sticky .menu li a:hover {
-     color: white;
+     color: rgb(255, 122, 140);
  }
 
  /* menu btn styling */
@@ -80,12 +85,12 @@
  /* Home section styling */
  .home {
      display: flex;
-      background: url("images/mike.jpg");
+      background: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
      height: 100vh;
-     color: white;
+     color: #111;
      min-height: 600px;
      font-size: 2em;
      font-family: cursive;
@@ -96,7 +101,7 @@
  }
 
  .one {
-     color: rgb(41, 41, 41);
+     color: rgb(17, 17, 17);
  }
 
  .first-text {
@@ -116,18 +121,18 @@
 
  .home .home-content a {
      display: inline-block;
-     background: rgb(221, 99, 221);
-     color: white;
+     background: rgb(255, 185, 194);
+     color: #111;
      font-size: 25px;
      padding: 12px 36px;
      margin-top: 20px;
      border-radius: 6px;
-     border: 2px solid rgb(221, 99, 221);
+     border: 2px solid rgb(255, 185, 194);
      transition: all 0.3 ease;
  }
 
  .home .home-content a:hover {
-     color: rgb(41, 41, 41);
+     color: #fff;
      background: none;
  }
  /* all related sections styling code */
@@ -151,7 +156,7 @@ section .title::before {
     left: 50%;
     width: 180px;
     height: 3px;
-    background-color: rgb(221, 99, 221); 
+    background-color: rgb(255, 122, 140);
     transform: translateX(-50%);
 
 
@@ -163,7 +168,7 @@ section .title::after {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: rgb(221, 99, 221);
+    color: rgb(255, 122, 140);
     padding: 5px;
     background-color: white;
     transform: translateX(-50%);
@@ -176,7 +181,7 @@ section .title::after {
  }
 
 .about .title::after {
-    color:rgb(221, 99, 221);
+    color: rgb(255, 122, 140);
      content: "who am I";
  }
 
@@ -212,7 +217,7 @@ section .title::after {
  }
 
  .about .about-content .right .text span {
-     color: rgb(221, 99, 221);
+     color: rgb(255, 122, 140);
  }
 
  .about .about-content .right p {
@@ -221,14 +226,14 @@ section .title::after {
 
  .about .about-content .right a {
      display: inline-block;
-     background: rgb(221, 99, 221);
+     background: rgb(255, 122, 140);
      color: white;
      font-size: 20px;
      font-weight: 500;
      padding: 10px 30px;
      margin-top: 20px;
      border-radius: 6px;
-     border: 2px solid rgb(221, 99, 221);
+     border: 2px solid rgb(255, 122, 140);
      transition: all 0.3 ease;
  }
 
@@ -243,12 +248,12 @@ section .title::after {
     background: #111;
 }
 .services .title::before{
-    background:rgb(221, 99, 221);
+    background:rgb(255, 122, 140);
    
 } 
 .services .title::after{
     background: #111;
-    color:rgb(221, 99, 221);
+    color:rgb(255, 122, 140);
     content: "what i provide";
 } 
 .services .serv-content .card{
@@ -257,11 +262,13 @@ section .title::after {
 .services .serv-content .text{
     font-size: 35px;
     font-weight: 700;
-    color: rgb(221, 99, 221);
+    color: rgb(255, 122, 140);
 }
 .project li a{
     font-size: 20px;
+    color: rgb(255, 122, 140);
     text-decoration: none;
+    list-style: square;
 }
 
 
@@ -371,4 +378,8 @@ section .title::after {
              .max-width {
                  padding: 0 23px;
              }
-         }
+    }
+    #footer{
+        text-align: center;
+        background-color: rgb(221, 99, 221);
+    } 
