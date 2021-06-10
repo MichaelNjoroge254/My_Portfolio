@@ -257,7 +257,9 @@ section .title::after {
 /* services section styling */
 .services{
     color:#111;
-    background-image:url("https://images.pexels.com/photos/1037996/pexels-photo-1037996.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") 
+    background-image:url("https://images.pexels.com/photos/1037993/pexels-photo-1037993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .services .title::before{
     background:rgb(255, 122, 140);
