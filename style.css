@@ -266,7 +266,6 @@ section .title::after {
    
 } 
 .services .title::after{
-    background: ;
     color:rgb(255, 122, 140);
     content: "what i do|love";
     
@@ -305,11 +304,11 @@ section .title::after {
 .services .serv-content .text:hover{
     color: rgb(198, 235, 231);
 }
-.project li a{
+.project ul li a{
     font-size: 20px;
-    color: #fff;
+    color: black;
     text-decoration: none;
-    list-style: square;
+    list-style: none;
     justify-content: space-around;
 }
 .project li a:hover{
@@ -384,19 +383,35 @@ section .title::after {
 
 }
 .skills .skills-content .right .css::before{
-    width: 58%;
+    width: 78%;
 
 }
 .skills .skills-content .right .javascript::before{
-    width: 25%;
+    width: 45%;
+
+}
+.skills .skills-content .right .jquery::before{
+    width: 43%;
+
+}
+.skills .skills-content .right .angular::before{
+    width: 40%;
+
+}
+.skills .skills-content .right .django::before{
+    width: 50%;
+
+}
+.skills .skills-content .right .flask::before{
+    width: 47%;
 
 }
 .skills .skills-content .right .bootstrap::before{
-    width: 30%;
+    width: 60%;
 
 }
 .skills .skills-content .right .python::before{
-    width: 5%;
+    width: 45%;
 
 }
 
@@ -637,5 +652,5 @@ section .title::after {
         text-decoration: none;
     }
     footer span a:hover{
-        text-decoration: underline;
+        text-decoration: underline
     }
